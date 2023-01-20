@@ -1,0 +1,156 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: #fff;
+}
+.logo{
+    font-family: 'Raleway', sans-serif; 
+    color:#000;
+    font-size: 26px;
+    text-decoration: none;
+}
+.logo-accent {
+  font-family: 'Raleway', sans-serif;
+  color:#2196f3;
+  font-size: 26px;
+}
+.menu  a{
+   font-weight: 500;
+    color: #212121;
+    letter-spacing: 0.02em;
+}
+.menu .text{
+    color:#2196f3;
+}
+.kontakt li a {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+
+}
+.kontakt a:hover {
+    color:#757575;
+}
+.tel {
+    color:#757575;
+}
+.mail {
+    color: #2196f3;
+}
+
+.page-header {
+ background-color:#2f303A;
+ width: 1600px;
+ height: 600px;
+ color:#FFF;
+ font-size: 44px;
+ font-weight: 900;
+ letter-spacing: 0.06em;
+}
+.page-header .first{
+background-color: #2196f3;
+color: #FFF;
+font-size: 16px;
+font-weight: 700;
+letter-spacing: 0.06em;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.boon h3{
+    color:#212121;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.boon p{
+    font-weight: 400;
+}
+.activity {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.teams{
+    background-color: #f5f4fa;
+}
+.teams ul li {
+    background-color: #FFF;
+}
+.teams h2 {
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+.teams h3 {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+}
+.teams p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-footer {
+background-color: #2f303A;
+    width: 1600px;
+    height: 252px;
+}
+.page-footer li a{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    opacity: .6;
+}
+.logo-f{
+font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 26px;
+}
+.page-footer .ad {
+    opacity: 1;
+}
+    
+.page-footer li a:hover {
+    color: #757575;
+}
+
+
+.btn-group button{
+    background-color: #f5f4fa;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    color: #212121;
+}
+.btn-group .all{
+    background-color: #2196f3;
+    color: #FFF;
+}
+
+.project h2{
+    letter-spacing: 0.06em;
+    font-size: 18px;
+    color: #212121;
+    font-weight: 700;
+}
+.project li p{
+        font-size: 16px;
+        color: #757575;
+}
