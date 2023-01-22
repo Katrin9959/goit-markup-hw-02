@@ -1,61 +1,77 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196f3;
+    --primary-bg-color:#fff;
+}
 body {
     font-family: 'Roboto', sans-serif;
-    color: #757575;
+    color: var(--primary-text-color);
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: #fff;
+    background-color: var(--primary-bg-color);
+    
 }
+
 .logo{
     font-family: 'Raleway', sans-serif; 
-    color:#000;
+    color:var(--accent-color);
     font-size: 26px;
     text-decoration: none;
+    letter-spacing: 0.03em;
 }
-.logo-accent {
-  font-family: 'Raleway', sans-serif;
-  color:#2196f3;
-  font-size: 26px;
+.logo span {
+  color:#000;
 }
-.menu  a{
+
+.menu  .page{
    font-weight: 500;
-    color: #212121;
+    color: var(--title-text-color);
     letter-spacing: 0.02em;
 }
 .menu .text{
-    color:#2196f3;
+    color:var(--accent-color);
+   
 }
-.kontakt li a {
+.сontaсt {
     font-weight: 500;
     letter-spacing: 0.02em;
-    text-decoration: none;
-
-}
-.kontakt a:hover {
-    color:#757575;
-}
-.tel {
-    color:#757575;
+    color: var(--primary-text-color);
 }
 .mail {
-    color: #2196f3;
+    color: var(--primary-text-color); 
+}
+.tel {
+ color:var(--primary-text-color) ;
+}
+.сontaсt a:hover {
+    color:var(--accent-color);
 }
 
 .page-header {
  background-color:#2f303A;
- width: 1600px;
- height: 600px;
- color:#FFF;
+}
+.title {
+ color:var(--primary-bg-color);
  font-size: 44px;
  font-weight: 900;
  letter-spacing: 0.06em;
+ line-height: 60px;
 }
-.page-header .first{
-background-color: #2196f3;
-color: #FFF;
+.first{
+font-family: 'Roboto', sans-serif;
+background-color: var(--accent-color);
+color: var(--primary-bg-color);
 font-size: 16px;
 font-weight: 700;
 letter-spacing: 0.06em;
+line-height: 30px;
 }
+.first:focus, 
+.first:hover {
+    color: #188CE8;
+    background-color:var(--primary-bg-color) ;
+} 
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -69,88 +85,109 @@ letter-spacing: 0.06em;
     margin: -1px;
 }
 
-.boon h3{
-    color:#212121;
+.work-list .title{
+    color:var(--title-text-color);
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.03em;
+    line-height: 16px;
 }
-.boon p{
+.work-list .essence {
     font-weight: 400;
+    line-height: 24px;
 }
-.activity {
-    color: #212121;
+.specialists {
+    color: var(--title-text-color);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
+    line-height: 42px;
 }
-.teams{
+.blok-teams{
     background-color: #f5f4fa;
 }
-.teams ul li {
-    background-color: #FFF;
+.team {
+    background-color: var(--primary-bg-color);
 }
-.teams h2 {
-    color: #212121;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 0.03em;
-}
-.teams h3 {
-    color: #212121;
+
+.name {
+    color: var(--title-text-color);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
+    line-height: 19px;
 }
-.teams p{
+.activity{
     font-size: 16px;
     font-weight: 400;
+    line-height: 19px;
 }
 
 .page-footer {
-background-color: #2f303A;
+   background-color: #2f303A;
     width: 1600px;
     height: 252px;
+
 }
-.page-footer li a{
-    color: #FFF;
-    font-size: 14px;
-    font-weight: 400;
+.page-footer .feedback {
     letter-spacing: 0.03em;
     opacity: .6;
+    line-height: 24px;
+}
+.page-footer .feedback:hover {
+    color:var(--accent-color);
 }
 .logo-f{
 font-family: 'Raleway', sans-serif;
-    color: #fff;
+    color: var(--accent-color);
     font-size: 26px;
+    letter-spacing: 0.03em;
 }
-.page-footer .ad {
-    opacity: 1;
+.logo-f span{
+    color: var(--primary-bg-color);
 }
-    
-.page-footer li a:hover {
-    color: #757575;
+.page-footer .map {
+     color: var(--primary-bg-color);
 }
+   
+
+
 
 
 .btn-group button{
+    font-family:'Roboto', sans-serif;
     background-color: #f5f4fa;
     letter-spacing: 0.03em;
     font-size: 16px;
-    color: #212121;
+    color: var(--title-text-color);
+    line-height: 26px;
 }
-.btn-group .all{
-    background-color: #2196f3;
-    color: #FFF;
+.other:focus,
+.other:hover{
+    color: var(--primary-bg-color);
+    background-color:#188CE8 ;
 }
 
-.project h2{
+.btn-group .all{
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+}
+.all:focus,
+.all:hover {
+    color:#188CE8 ;
+    background-color: var(--primary-bg-color) ;
+}
+
+.name {
     letter-spacing: 0.06em;
     font-size: 18px;
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
+    line-height: 36px;
 }
-.project li p{
-        font-size: 16px;
-        color: #757575;
+.deal {
+    font-size: 16px;
+    color: var(--primary-text-color);
+    letter-spacing:0.03em ;
+    line-height: 30px;
 }
